@@ -1,0 +1,86 @@
+<h2 style="text-align: center; color:brown">Welcome to WebPage</h2>
+
+<button class="btn btn-primary" (click)="signUp()">SignUp</button>
+
+<div class="container-fluid">
+  <div class="col-sm-12">
+    <img class="img-fluid" style="height: 600px; width:100%" src="../assets/images/c3.jpg" alt="nature">
+    <p class="carousel-caption d-none d-md-block">All Practice Pages Available Here</p>
+  </div>
+</div>
+
+<div class="accordion mt-4" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="accordion-button d-block text-center" type="button" (click)="isCollapsed1= !isCollapsed1" data-toggle="collapse" data-target="#collapseOne"
+        [attr.aria-expanded]="false" aria-controls="collapseOne">
+          Collapsible Group Item #1
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="accordion-collapse collapse" [ngbCollapse]="isCollapsed1" aria-labelledby="headingOne" >
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+        terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard
+        dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+         sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+          Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+          sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+          craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+          heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="accordion-button d-block text-center " (click)="isCollapsed2 = !isCollapsed2" type="button" data-toggle="collapse"
+         data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Collapsible Group Item #2
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="accordion-collapse collapse hide" [ngbCollapse]="isCollapsed2" aria-labelledby="headingTwo" >
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="accordion-button d-block text-center " (click)="isCollapsed3 = !isCollapsed3" type="button" data-toggle="collapse" data-target="#collapseThree"
+        aria-expanded="false" aria-controls="collapseThree">
+          Collapsible Group Item #3
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="accordion-collapse collapse hide" [ngbCollapse]="isCollapsed3" aria-labelledby="headingThree">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="container">
+
+  <h1>Angular Bootstrap Collapse Example - ItSolutionStuff.com</h1>
+
+  <p>
+    <button type="button" class="btn btn-outline-primary" (click)="isCollapsed = !isCollapsed"
+            [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
+      Collapse Toggle
+    </button>
+  </p>
+  <div id="collapseExample" [ngbCollapse]="isCollapsed">
+    <div class="card">
+      <div class="card-body">
+        You can collapse this card by clicking Toggle Button. This is example from ItSolutionStuff.com.
+      </div>
+    </div>
+  </div>
+
+  </div> -->

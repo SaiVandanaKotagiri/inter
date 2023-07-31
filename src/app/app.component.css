@@ -1,0 +1,29 @@
+.navbar{
+  background-color: rgb(248, 108, 14);
+
+}
+
+.nav-item .nav-link {
+  background-color: rgb(248, 108, 14);
+  color: #FFF;
+}
+
+.nav-item .nav-link.active {
+  background-color: chocolate;
+  border-radius: 8px;
+  color: #ffffff;
+}
+/* mouse over link */
+a:hover {
+  color: #e1d8f4;
+}
+a.dropdown-item{
+  color: black;
+}
+/* button.btn{
+
+  justify-content: space-between;
+} */
+#login{
+  margin-right: 200px;
+}

@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "id": 3,
+      "firstName": "sai",
+      "lastName": "kotagiri",
+      "email": "kotagiri@gmail.com",
+      "mobile": "7865432",
+      "salary": "346845985"
+    },
+    {
+      "id": 11,
+      "firstName": "dinu",
+      "lastName": "sagi",
+      "email": "sagi@3235",
+      "mobile": "987279886",
+      "salary": "827837487"
+    },
+    {
+      "id": 15,
+      "firstName": "vijay",
+      "lastName": "devarakonda",
+      "email": "vijayD@gnail.com",
+      "mobile": "45678",
+      "salary": "098765432"
+    },
+    {
+      "id": 16,
+      "firstName": "Adhi",
+      "lastName": "Pinisetti",
+      "email": "adhiP@gmail.com",
+      "mobile": "97865432",
+      "salary": "765432"
+    },
+    {
+      "id": 17,
+      "firstName": "dinesh",
+      "lastName": "sagi",
+      "email": "sagi@dinu",
+      "mobile": "675834223",
+      "salary": "765432"
+    },
+    {
+      "id": 18,
+      "firstName": "fjsbv",
+      "lastName": "sdnckdf",
+      "email": "xmcnvksj",
+      "mobile": "878764653",
+      "salary": "985768"
+    },
+    {
+      "id": 20,
+      "firstName": "gdfsdxcv",
+      "lastName": "fjhbjv",
+      "email": "yfhgvn",
+      "mobile": "7687",
+      "salary": "657668"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
