@@ -8,6 +8,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SignUPComponent } from './sign-up/sign-up.component';
+import { InterviewComponent } from './interview/interview.component';
+import { PipingPipe } from './piping.pipe';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { SignUPComponent } from './sign-up/sign-up.component';
     AppComponent,
     EmployeeDashboardComponent,
     HomeComponent,
-    SignUPComponent
+    SignUPComponent,
+    InterviewComponent,
+    PipingPipe
   ],
   imports: [
     BrowserModule,
